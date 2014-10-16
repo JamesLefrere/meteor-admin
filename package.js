@@ -18,7 +18,7 @@ Package.on_use(function(api){
     'accounts-password',
     'underscore',
     'aldeed:collection2@2.1.0',
-    'aldeed:autoform@2.0.2 || 3.1.0',
+    'aldeed:autoform@2.0.2 || 3.1.0 || 4.0.0-rc2',
     'alanning:roles@1.2.13',
     'raix:handlebar-helpers@0.1.2'
     ],
@@ -32,7 +32,7 @@ Package.on_use(function(api){
     'lib/both/AdminDashboard.coffee',
     'lib/both/router.coffee'
     ], both);
-  
+
   api.add_files([
     'lib/client/html/admin_templates.html',
     'lib/client/html/admin_widgets.html',
